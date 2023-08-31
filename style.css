@@ -1,27 +1,29 @@
 body {
     background-color: rgb(246, 236, 236);
 }
-img {
-    height: 25vh;
-    border: 3px solid;
-   }
 
-.column {
-    border: 3px solid;
-    display:flex;
-    align-items: center;
+img {
+     width:150px ;
+    height: 22vh;
     }
 
-.curriculum {
+ .curriculum {
     display:block;
     justify-content: space-between;
   }
+  .text {
+    margin-left: 20px; 
+    }
 
   .personal-info {
+    display: flex;
+    justify-content: center;
+    align-content: center;
     flex-basis: 300vh;
     border: 3px solid;
     background-color: rgb(244, 243, 243);
     padding: 10px;
+    
     }
     
   .experience {
@@ -47,4 +49,5 @@ img {
     text-decoration: underline;
     font-style: italic;
   }
+ 
   
